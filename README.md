@@ -15,7 +15,7 @@ Script available in the subdirectory <b> 02_PCRduplicates </b>, file `PCR_duplic
 Script available in the subdirectory <b> 03_VariantCalling </b>, file `mutation_calling.sh`. This step attempts to remove germline variants from the tumor sample by indicating in the code the matched blood/normal BAM of the patient, followed by a panel of normal (which can be constructed by the user, or download one from GATK portal).
 
 ## 4) Filter sequencing artifacts and contamination.
-Script available in the subdirectory <b> 04_HardFiltering </b>, file `filter_artifacts.sh`. This is an additional step to have higher confidence of the somatic mutations called from FFPE samples.
+Script available in the subdirectory <b> 04_FilterArtifacts </b>, file `filter_artifacts.sh`. This is an additional step to have higher confidence of the somatic mutations called from FFPE samples.
 
 ## 5) Annotation with Annovar.
 Script available in the subdirectory <b> 05_Annotation </b>, file `annotation.sh`.
