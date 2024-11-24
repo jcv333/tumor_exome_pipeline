@@ -6,10 +6,10 @@ Pipeline to process exome-sequenced tumor BAM files (matched normal/tumor) with 
 This repository provides an example of a mock pipeline for processing blood BAM files for downstream germline exome analysis. The pipeline is broken down into individual scripts `.sh`, intended to serve as generalized templates, which can be adapted or modified according to users' specific needs.
 
 ## 1) Alignment to the human reference genome hg19.
-Script available in the subdirectory <b> 01_Alignment </b>, file `alignment.sh`.
+Script available in the subdirectory <b> 01_Alignment </b>, file `alignment.sh`. Alignment is performed for both blood and tumor BAM files.
 
-## 2) Remove PCR duplicates.
-Script available in the subdirectory <b> 02_PCRduplicates </b>, file `PCR_duplicates.sh`.
+## 2) Mark PCR duplicates.
+Script available in the subdirectory <b> 02_PCRduplicates </b>, file `PCR_duplicates.sh`. PCR duplicates are marked for both blood and tumor BAM files.
 
 ## 3) Mutation calling for tumor samples.
 Script available in the subdirectory <b> 03_MutationCalling </b>, file `mutation_calling.sh`. This step attempts to remove germline variants from the tumor sample by indicating in the code the matched blood/normal BAM of the patient, followed by a panel of normal (which can be constructed by the user, or download one from GATK portal).
