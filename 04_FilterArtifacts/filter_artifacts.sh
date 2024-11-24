@@ -8,7 +8,6 @@ module load samtools/1.10
 # 2. Create variables for directories.
 ref=/home/path/to/dir/hg19_reference/Homo_sapiens.hg19.fa
 source=/home/path/to/dir/source
-panel_normal=/home/path/to/dir/pon1
 exac_common=/home/path/to/dir/exac
 
 # 3. Strand-biased reads - LearnReadOrientationModel.
