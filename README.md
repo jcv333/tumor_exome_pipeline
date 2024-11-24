@@ -12,7 +12,7 @@ Script available in the subdirectory <b> 01_Alignment </b>, file `alignment.sh`.
 Script available in the subdirectory <b> 02_PCRduplicates </b>, file `PCR_duplicates.sh`.
 
 ## 3) Mutation calling for tumor samples.
-Script available in the subdirectory <b> 03_VariantCalling </b>, file `mutation_calling.sh`. This step attempts to remove germline variants from the tumor sample by indicating in the code the matched blood/normal BAM of the patient, followed by a panel of normal (which can be constructed by the user, or download one from GATK portal).
+Script available in the subdirectory <b> 03_MutationCalling </b>, file `mutation_calling.sh`. This step attempts to remove germline variants from the tumor sample by indicating in the code the matched blood/normal BAM of the patient, followed by a panel of normal (which can be constructed by the user, or download one from GATK portal).
 
 ## 4) Filter sequencing artifacts and contamination.
 Script available in the subdirectory <b> 04_FilterArtifacts </b>, file `filter_artifacts.sh`. This is an additional step to have higher confidence of the somatic mutations called from FFPE samples.
