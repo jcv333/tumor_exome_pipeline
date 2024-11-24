@@ -1,6 +1,6 @@
 # Exome pipeline for matched normal/tumor samples (FFPE tumor samples) from cancer patients.
 ## Repository created by Jose Camacho Valenzuela.
-Pipeline to process exome-sequenced BAM files (matched normal/tumor) with basic parameters, from alignment to annotation.
+Pipeline to process exome-sequenced tumor BAM files (matched normal/tumor) with basic parameters, from alignment to annotation.
 
 ### Disclaimer.
 This repository provides an example of a mock pipeline for processing blood BAM files for downstream germline exome analysis. The pipeline is broken down into individual scripts `.sh`, intended to serve as generalized templates, which can be adapted or modified according to users' specific needs.
